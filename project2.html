@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SUBOSS EXPLORERS</h1>
+        <nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <ul class="nav-menu">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="C:\Users\subas\webDev projects\projects\projects\anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg" alt="Paris">
+                <img src="C:\Users\subas\webDev projects\projects\projects\matteo-catanese-dVCGpKZB_E8-unsplash.jpg" alt="New York City">
+                <img src="C:\Users\subas\webDev projects\projects\projects\andre-benz-FPyGfMHXWZU-unsplash.jpg" alt="Tokyo">
+            </div>
+            <button class="carousel-button prev">&#10094;</button>
+            <button class="carousel-button next">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <h3>Our Mission</h3>
+        <p>At Travel Explorer, we are dedicated to crafting memorable travel experiences for our clients. Our mission is to provide personalized travel planning services that cater to each client's unique preferences and needs.</p>
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li><strong>Personalized Service:</strong> We tailor every itinerary to match your interests and requirements.</li>
+            <li><strong>Expert Advice:</strong> Our team of travel experts provides insider tips and recommendations.</li>
+            <li><strong>Exclusive Deals:</strong> Enjoy access to special offers and discounts that you won't find elsewhere.</li>
+            <li><strong>24/7 Support:</strong> We are here to assist you at any time before, during, and after your trip.</li>
+        </ul>
+        <h3>Meet the Team</h3>
+        <p>Our team is composed of passionate travel enthusiasts who have explored the world and are eager to share their knowledge with you. We pride ourselves on our customer-centric approach and our commitment to making your travel dreams come true.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 suboss explorers</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
