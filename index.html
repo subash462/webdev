@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subash Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+<div class="cursor-glow"></div>
+
+<nav class="navbar">
+    <h2 class="logo">Subash</h2>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+
+<section class="hero-container">
+
+    <div class="hero-left glass-card">
+        <h1>
+            <span class="accent">Hello, I'm</span><br>
+            <span class="name">Subash</span>
+        </h1>
+
+        <h2 class="typing"></h2>
+
+        <p class="desc">
+            Full Stack Developer building scalable web apps, embedded systems, and secure solutions.
+        </p>
+
+        <div class="hero-buttons">
+            <button class="btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+            <button class="btn-outline">Contact Me</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card glass">
+                <h3>400+</h3>
+                <p>DSA Problems</p>
+            </div>
+            <div class="stat-card glass">
+                <h3>5+</h3>
+                <p>Projects</p>
+            </div>
+            <div class="stat-card glass">
+                <h3>2+</h3>
+                <p>Internships</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <div class="profile-wrapper">
+            <div class="glow-ring"></div>
+            <img src="https://via.placeholder.com/260">
+        </div>
+    </div>
+
+</section>
+
+<section id="about" class="section-wrapper">
+    <div class="glass reveal">
+        <h2>About Me</h2>
+        <p>
+            Full Stack Developer with strong interest in Embedded Systems and Cyber Security.
+            Passionate about solving real-world problems and building impactful solutions.
+        </p>
+    </div>
+</section>
+
+<section id="projects" class="section-wrapper">
+    <div class="projects">
+
+        <div class="glass project-card reveal tilt">
+            <h3>FitTrackr</h3>
+            <p>Workout tracker with CRUD and progress tracking.</p>
+        </div>
+
+        <div class="glass project-card reveal tilt">
+            <h3>Image Caption Generator</h3>
+            <p>CNN + LSTM deep learning model.</p>
+        </div>
+
+        <div class="glass project-card reveal tilt">
+            <h3>YARA File Scanner</h3>
+            <p>Malware detection using YARA rules.</p>
+        </div>
+
+        <div class="glass project-card reveal tilt">
+            <h3>CAN Monitoring System</h3>
+            <p>Industrial equipment health monitoring with diagnostics.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="section-wrapper">
+    <div class="glass reveal">
+        <h2>Contact</h2>
+        <p>Email: subashakash462@gmail.com</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
